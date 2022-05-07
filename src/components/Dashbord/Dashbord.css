@@ -1,0 +1,14 @@
+.dashbord {
+  max-width: 50%;
+  margin: 2rem auto;
+}
+.bar-chart {
+  margin-top: 2rem;
+}
+
+@media (max-width: 600px) {
+  .dashbord {
+    max-width: 100%;
+    margin: 0px;
+  }
+}
