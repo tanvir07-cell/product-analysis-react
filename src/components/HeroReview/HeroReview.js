@@ -1,8 +1,8 @@
 import React from "react";
-import "./Review.css";
+import "./HeroReview.css";
 
-const Review = (props) => {
-  const { name, img, ratings, feedback } = props.review;
+const HeroReview = (props) => {
+  const { name, img, feedback, ratings } = props.review;
   return (
     <div className="review">
       <div>
@@ -18,4 +18,4 @@ const Review = (props) => {
   );
 };
 
-export default Review;
+export default HeroReview;

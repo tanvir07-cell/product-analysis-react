@@ -1,25 +1,17 @@
-import React, { useEffect, useState } from "react";
-// import useReview from "../../hooks/useReview";
+import React from "react";
+import useReviews from "../../hooks/useReviews";
+import Review from "../Review/Review";
 
-const Review = () => {
-  // load data from the custom use hook(useReview()):
-
-  const [reviews, setReviews] = useState([]);
-  useEffect(() => {
-    fetch("data.json")
-      .then((res) => res.json())
-      .then((data) => setReviews(data));
-  }, []);
-
-  console.log()
+const Reviews = () => {
+  const [reviews, setReviews] = useReviews();
 
   return (
-    <div>
-      {reviews.map((review) => (
+    <div className="reviews-container grid md:grid-cols-2 gap-8 ">
+      {reviews?.map((review) => (
         <Review review={review} key={review.id}></Review>
       ))}
     </div>
   );
 };
 
-export default Review;
+export default Reviews;

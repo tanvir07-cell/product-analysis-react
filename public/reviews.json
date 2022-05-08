@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "name": "Nusrat",
+      "img": "https://cdn-icons-png.flaticon.com/512/190/190613.png",
+      "ratings": 5,
+      "feedback": "It is really awesome product",
+      "gender": "Female"
+    },
+    {
+      "id": 2,
+      "name": "Rahim",
+      "img": "https://raw.githubusercontent.com/tanvir07-cell/product-analysis-react/main/src/components/assets/Rahim.png",
+      "ratings": 5,
+      "feedback": "This is the most awesome product",
+      "gender": "Male"
+    },
+    {
+      "id": 3,
+      "name": "Rahima Khatun",
+      "img": "https://cdn-icons-png.flaticon.com/512/190/190613.png",
+      "ratings": 4,
+      "feedback": "Good product",
+      "gender": "Female"
+    },
+    {
+      "id": 4,
+      "name": "Abul Kashem",
+      "img": "https://www.synapptic.com/images/homepage/man1.png",
+      "ratings": 5,
+      "feedback": "Ohhho! Nice Product",
+      "gender": "Male"
+    },
+    {
+      "id": 5,
+      "name": "Akkash Mia",
+      "img": "https://www.synapptic.com/images/homepage/man1.png",
+      "ratings": 5,
+      "feedback": "It is really awesome product",
+      "gender": "Male"
+    },
+    {
+      "id": 6,
+      "name": "Sakhina",
+      "img": "https://raw.githubusercontent.com/tanvir07-cell/product-analysis-react/main/src/components/assets/Sakhina.png",
+      "ratings": 5,
+      "feedback": "It is really awesome product",
+      "gender": "Female"
+    }
+  ]

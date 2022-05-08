@@ -17,7 +17,7 @@ const Header = () => {
       <div>
         <NavLink to="/">
           <h1 className="uppercase font-bold text-3xl text-white-800 tracking-widest italic hover:not-italic drop-shadow-lg  text-transparent bg-clip-text bg-gradient-to-br from-pink-400 to-red-600">
-            Tanvir Rifat
+            Laptop Store
           </h1>
         </NavLink>
       </div>
@@ -49,12 +49,12 @@ drop-shadow-sm bg-blend-darken rounded-xl brightness-75"
           </li>
           <li>
             <NavLink
-              to="/review"
+              to="/reviews"
               className={({ isActive }) =>
                 isActive ? "text-rose-400" : undefined
               }
             >
-              Review
+              Reviews
             </NavLink>
           </li>
           <li>

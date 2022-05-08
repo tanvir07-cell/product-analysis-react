@@ -1,3 +1,4 @@
+// for the mobile hamburger icon navbar:
 import { Close } from "@material-ui/icons";
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
@@ -27,7 +28,7 @@ const MenuItems = ({ showMenu, active }) => {
       </li>
       <li>
         <NavLink
-          to="/review"
+          to="/reviews"
           className={({ isActive }) => (isActive ? "text-rose-400" : undefined)}
         >
           Review
