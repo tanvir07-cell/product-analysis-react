@@ -1,6 +1,9 @@
 .dashbord {
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
   max-width: 50%;
   margin: 2rem auto;
+  gap:1rem;
 }
 .bar-chart {
   margin-top: 2rem;
@@ -9,6 +12,8 @@
 @media (max-width: 600px) {
   .dashbord {
     max-width: 100%;
-    margin: 0px;
+    margin:0;
+   
+    grid-template-columns: repeat(1,1fr);
   }
 }
